@@ -6,15 +6,19 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #F4F4F4;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
 }
 
 .container {
-    width: 100%;
-    max-width: 360px;
-    margin: 0 auto;
-    background-color: #FFFFFF;
-    padding: 16px;
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    color: black;
+    padding: 20px;
     border-radius: 10px;
 }
 
