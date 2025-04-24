@@ -225,54 +225,32 @@ body {
     right: 10px;
 }
 
-.bottom-nav {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+footer {
+    margin-top: auto;
     display: flex;
     justify-content: space-around;
     background-color: #fff;
-    padding: 12px 0;
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
-    z-index: 100;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
 }
 
-.nav-item {
+.bottom-nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-grow: 1;
+    justify-content: space-around;
+    background-color: #ffffff; /* Green background for navigation */
+    padding: 10px 0;
+    border-radius: 8px;
 }
 
-.nav-item img {
-    width: 24px;
-    height: 24px;
-    margin-bottom: 5px;
-}
-
-.nav-item:hover {
+.nav-btn {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 16px;
     cursor: pointer;
+    padding: 10px 20px;
 }
 
-.nav-item.home img {
-    color: #4CAF50;
-}
-
-.nav-item.cart img {
-    color: #f39c12;
-}
-
-.nav-item.calendar img {
-    color: #3498db;
-}
-
-@media (max-width: 768px) {
-    .bottom-nav {
-        padding: 10px 0;
-    }
-    .nav-item img {
-        width: 30px;
-        height: 30px;
-    }
+.nav-btn:hover {
+    background-color: #218838; /* Darker green on hover */
 }
