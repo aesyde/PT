@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Method</title>
+    <link rel="stylesheet" href="Metodepembayaran.css">
+</head>
+
+<body>
+    <div class="payment-container">
+        <div class="header">
+            <h1>Metode Pembayaran</h1>
+        </div>
+        <form id="payment-form">
+            <label for="name">Nama</label>
+            <input type="text" id="name" placeholder="Agus">
+            <label for="phone">Nomor Telepon</label>
+            <input type="tel" id="phone" placeholder="081999999999">
+            <label for="menu-items">Menu Pilihan</label>
+            <div class="menu-item">
+                <input type="checkbox" id="menu-1" class="menu" data-price="14000">
+                <label for="menu-1">Mie Ayam Biasa</label>
+                <span>Rp14.000</span>
+            </div>
+            <div class="menu-item">
+                <input type="checkbox" id="menu-2" class="menu" data-price="14000">
+                <label for="menu-2">Mie Ayam Bakso</label>
+                <span>Rp14.000</span>
+            </div>
+            <div class="total">
+                <span>Total Pembayaran: </span>
+                <span id="total-price">Rp0</span>
+            </div>
+            <div class="payment-methods">
+                <label for="payment-method">Pilih Pembayaran:</label>
+                <select id="payment-method">
+                    <option value="bca">BCA</option>
+                    <option value="qris">QRIS</option>
+                    <option value="ovo">OVO</option>
+                </select>
+            </div>
+            <div class="qris">
+                <p>QRIS</p>
+                <img src="Foto/QR.png" alt="QRIS" width="150">
+            </div>
+            <button type="submit" id="submit-btn">Bayar</button>
+        </form>
+
+        <footer class="bottom-nav">
+            <div>
+                <a href="keranjang.html">
+                    <button class="nav-btn">Keranjang</button>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="Metodepembayaran.js"></script>
+</body>
+
+</html>

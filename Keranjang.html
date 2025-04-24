@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keranjang Belanja</title>
+    <link rel="stylesheet" href="Keranjang.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Keranjang Belanja</h1>
+        </header>
+
+        <div class="form">
+            <input type="text" id="name" placeholder="Nama">
+            <input type="text" id="phone" placeholder="Nomor">
+        </div>
+
+        <div class="cart">
+            <div class="cart-item">
+                <div class="item-info">
+                    <p>Mie ayam biasa</p>
+                    <img src="Foto/Mie ayam biasa.png" alt="Mie Ayam Biasa">
+                    <p>Mie ayam biasa di isi dengan ayam kecap dan sayuran</p>
+                </div>
+                <div class="item-price">
+                    <p>Rp14.000</p>
+                    <button class="decrease">-</button>
+                    <span class="quantity" id="quantity1">1</span>
+                    <button class="increase">+</button>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <div class="item-info">
+                    <p>Mie ayam bakso</p>
+                    <img src="Foto/Mie ayam bakso.png" alt="Mie Ayam Bakso">
+                    <p>Mie ayam bakso di isi dengan mie, kecap, sayuran dan 3 bakso kecil</p>
+                </div>
+                <div class="item-price">
+                    <p>Rp14.000</p>
+                    <button class="decrease">-</button>
+                    <span class="quantity" id="quantity2">1</span>
+                    <button class="increase">+</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div>
+                <a href="Metodepembayaran.html">
+                    <button id="payButton">Bayar</button>
+                </a>
+            </div>
+        </div>
+
+        <footer class="bottom-nav">
+            <div>
+                <a href="Beranda.html">
+                    <button class="nav-btn">Home</button>
+                </a>
+            </div>
+            <div>
+                <a href="History.html">
+                    <button class="nav-btn">History</button>
+                </a>
+            </div>
+            <div>
+                <a href="keranjang.html">
+                    <button class="nav-btn">Keranjang</button>
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="Keranjang.js"></script>
+</body>
+
+</html>

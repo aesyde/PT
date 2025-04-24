@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    padding: 20px;
+}
+
+.payment-container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="tel"], form input[type="text"] {
+    font-size: 16px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.menu-item label {
+    flex: 1;
+}
+
+.menu-item span {
+    margin-left: 10px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.payment-methods {
+    margin-bottom: 15px;
+}
+
+.payment-methods select {
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.qris {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.qris img {
+    width: 150px;
+    height: auto;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff; /* Green background for navigation */
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+.nav-btn {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.nav-btn:hover {
+    background-color: #28a745; /* Darker green on hover */
+}
