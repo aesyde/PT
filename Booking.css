@@ -27,6 +27,7 @@ body {
     background-color: #4CAF50;
     padding: 10px;
     border-radius: 10px;
+    color: white;
 }
 
 .back-button {
@@ -52,7 +53,7 @@ h2 {
 }
 
 .booking-form input {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ddd;

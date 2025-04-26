@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Booking</title>
+    <link rel="stylesheet" href="Booking.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="Beranda.html" class="back-button">&#8592; </a>
+            <h2>History Booking</h2>
+        </div>
+        <form class="booking-form" id="bookingForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time" value="00:00" required>
+
+            <label for="guests">Number of guests</label>
+            <input type="number" id="guests" name="guests" value="1" min="1" required>
+
+            <a href="Bookinghistory.html" class="book-button">Book Now</a>
+        </form>
+    </div>
+
+    <script src="Booking.js"></script>
+</body>
+</html>
