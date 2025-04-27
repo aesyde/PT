@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+    background-color: #28a745;  /* Green background */
+    color: white;  /* White text */
+    padding: 10px 0;  /* Padding to add space around the text */
+    border-radius: 8px;  /* Rounded corners for the header */
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;  /* Ensure the text is white to contrast with green */
+}
+
+.history-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.history-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.item-info h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.item-info p {
+    font-size: 16px;
+    color: #888;
+}
+
+.action-btn {
+    background-color: #FF6347;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+
+.btn {
+    background-color: #28a745;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 8px;
+} 
+
+.blm_btn {
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff; /* Green background for navigation */
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+.nav-btn {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.nav-btn:hover {
+    background-color: #28a745; /* Darker green on hover */
+}

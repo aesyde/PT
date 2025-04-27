@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .reservation {
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .booking-entry {
+    padding-left: 10px;
+  }
+  
+  .booking-entry p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .reservation:hover {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+ /* Status styles for approved and rejected bookings */
+.status {
+    font-weight: bold;
+  }
+  
+  .status.approved {
+    color: #4CAF50;  /* Green for approved */
+  }
+  
+  .status.rejected {
+    color: #f44336;  /* Red for rejected */
+  }
+  
+  /* Button for navigating back to home */
+#backToHomeButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #2196F3;  /* Blue color */
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #backToHomeButton:hover {
+    background-color: #1976D2;  /* Darker blue when hovered */
+  }
+  
+  
+  

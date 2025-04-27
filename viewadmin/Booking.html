@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Page</title>
+  <link rel="stylesheet" href="Booking.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Booking</h2>
+
+    <div class="reservation" id="hermanReservation" onclick="openEditPage('herman', '8 May, 2023', '17:00', 3, 'approved')">
+      <h3>Reserve Online</h3>
+      <div class="booking-entry">
+        <p><strong>Name:</strong> Herman</p>
+        <p><strong>Date:</strong> 8 May, 2023</p>
+        <p><strong>Time:</strong> 17:00</p>
+        <p><strong>Number of guests:</strong> 3</p>
+        <p><strong>Status:</strong> <span class="status approved" id="hermanStatus">Disetujui</span></p>
+      </div>
+    </div>
+
+    <div class="reservation" id="megaReservation" onclick="openEditPage('mega', '8 May, 2023', '16:00', 2, 'rejected')">
+      <h3>Reserve Online</h3>
+      <div class="booking-entry">
+        <p><strong>Name:</strong> Mega</p>
+        <p><strong>Date:</strong> 8 May, 2023</p>
+        <p><strong>Time:</strong> 16:00</p>
+        <p><strong>Number of guests:</strong> 2</p>
+        <p><strong>Status:</strong> <span class="status rejected" id="megaStatus">Tidak Disetujui</span></p>
+      </div>
+    </div>
+
+    <!-- Back to Home Button -->
+    <button id="backToHomeButton" onclick="goToHome()">Kembali ke Beranda</button>
+  </div>
+
+  <script src="Booking.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Menu</title>
+    <link rel="stylesheet" href="Tambah.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Menambahkan Menu</h1>
+        <form id="menuForm">
+            <label for="menuName">Nama menu</label>
+            <input type="text" id="menuName" name="menuName" required>
+
+            <label for="menuCategory">Kategori menu</label>
+            <select id="menuCategory" name="menuCategory" required>
+                <option value="">Pilih kategori</option>
+                <option value="Makanan">Makanan</option>
+                <option value="Minuman">Minuman</option>
+            </select>
+
+            <label for="menuDescription">Deskripsi menu</label>
+            <textarea id="menuDescription" name="menuDescription" required></textarea>
+
+            <label for="menuPrice">Harga</label>
+            <input type="number" id="menuPrice" name="menuPrice" required>
+
+            <label for="menuPhoto">Photo</label>
+            <input type="file" id="menuPhoto" name="menuPhoto" accept="image/*">
+
+            <button type="submit">Simpan Menu</button>
+        </form>
+
+        <footer class="bottom-nav">
+            <div>
+                <a href="Berandaadmin.html">
+                    <button class="nav-btn">Home</button>
+                </a>
+            </div>
+            <div>
+                <a href="Tambah.html">
+                    <button class="nav-btn">Tambah Menu</button>
+                </a>
+            </div>
+            <div>
+                <a href="History.html">
+                    <button class="nav-btn">History</button>
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="Tambah.js"></script>
+</body>
+
+</html>

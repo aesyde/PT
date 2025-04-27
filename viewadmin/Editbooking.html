@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Booking</title>
+  <link rel="stylesheet" href="Editbooking.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Edit Booking</h2>
+
+    <form id="editForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+      </div>
+
+      <div class="form-group">
+        <label for="date">Date:</label>
+        <input type="text" id="date" name="date">
+      </div>
+
+      <div class="form-group">
+        <label for="time">Time:</label>
+        <input type="text" id="time" name="time">
+      </div>
+
+      <div class="form-group">
+        <label for="guests">Number of guests:</label>
+        <input type="number" id="guests" name="guests">
+      </div>
+
+      <div class="form-group">
+        <label for="status">Status:</label>
+        <select id="status" class="select-status" name="status">
+          <option value="approved">Disetujui</option>
+          <option value="rejected">Tidak Disetujui</option>
+        </select>
+      </div>
+
+      <button type="submit">Simpan</button>
+    </form>
+
+    <div id="statusIndicator" class="status-indicator"></div>
+
+    <button id="backButton" onclick="goBack()">Kembali ke halaman sebelumnya</button>
+  </div>
+
+  <script src="Editbooking.js"></script>
+</body>
+</html>
